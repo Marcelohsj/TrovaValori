@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  
+  <title>Mario Editor</title>
+</head>
+<body>
+
+  <nav>
+
+    <div class="profile">
+      <img src="../img/mario.jpg" alt="">
+      <h3>User</h3>
+    </div>
+
+    <h2 id="demo">Welcome back!</h2>
+
+    <div class="logOut">
+
+      <h3>Log Out</h3>
+      <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 22  22" xmlns="http://www.w3.org/2000/svg" id="memory-logout">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="SVGRepo_iconCarrier">
+        <path d="M17 1V2H18V6H17V5H16V3H6V19H16V17H17V16H18V20H17V21H5V20H4V2H5V1H17M1 6H15V7H16V8H17V9H18V10H19V12H18V13H17V14H16V15H15V16H13V14H14V13H15V12H8V10H15V9H14V8H13V6Z"/></g>
+      </svg>
+    
+    </div>
+
+  </nav>
+
+  <hr>
+
+  <div class="dashboard">
+
+    <div class="menu">
+      <ul>
+        <li>
+          <p>Intro - La nostra missione</p>
+        </li>
+        <li>
+          <p>Lv 1 - Obbiettivo: editor</p>
+        </li>
+        <li>
+          <p>Lv 2 - Obbiettivo: trovare valori</p>
+        </li>
+        <li>
+          <p>Lv 3 - Obbiettivo: consultare parametri</p>
+        </li>
+        <li>
+          <p>Lv 4 - Obbiettivo: generare filetti</p>
+        </li>
+        <li>
+          <p>Lv 5 - Obbiettivo: generare numeri e lettere</p>
+        </li>
+        <li>
+          <p>Final boss - Aiuto e contatti</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="console">
+
+      <div class="navConsole">
+
+        <p>G-CODE</p>
+        <p>LV 2</p>
+
+      </div>
+
+      <form class="userInputConsole">
+
+        <h3 class="consoleTitle">Inserire valori:</h3>
+
+        <div class="inputsGola">
+
+          <div class="labelsContainer">
+            <label>Id</label>
+            <label>Inserto</label>
+            <label>Quantita</label>
+            <label>Larghezza</label>
+            <label>Distanza</label>
+            
+          </div>
+
+          <div class="inputsContainer">
+            <input id="idGole" type="text" value="ID" maxlength="1"  >  
+            <input id="inserto" type="number" value="0"  min="0" max="5" >
+            <input id="nGole" type="number" value="0" min="0" max="20" >
+            <input id="lGole" type="number" value="0" min="0" max="50" >
+            <input id="dGole" type="number" value="0" min="0" max="500" >
+          </div>
+
+         
+        </div>
+ 
+        <div class="btnContainer">
+          <button id="addGole" class="add" type="button">Add</button>
+          <button id="btn" type="button">Play</button>
+        </div>
+      
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="../script/app.js"></script>
+  <script src="../script/event.js"></script>
+  
+ 
+</body>
+</html>
