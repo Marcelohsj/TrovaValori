@@ -3,7 +3,7 @@ const redirect = () => { //redirect from login to dashboard
 
     const password = document.getElementById("password").value
     if(password == "hbs"){
-      window.location.href="http://127.0.0.1:5500/html/dashboard.html";
+      window.location.href="https://github.com/Marcelohsj/TrovaValori/blob/main/dashboard.html";
     }
 };
 var clickCount = 0;
