@@ -80,7 +80,7 @@ const outputResult = () => {
 
     const xhr = new XMLHttpRequest();
     
-    xhr.open('get','outputResult.html');
+    xhr.open('get','https://github.com/Marcelohsj/TrovaValori/blob/main/outputResult.html');
 
     xhr.onload = function(){
 
