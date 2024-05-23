@@ -3,7 +3,7 @@ const redirect = () => { //redirect from login to dashboard
 
     const password = document.getElementById("password").value
     if(password == "hbs"){
-      window.location.href="https://github.com/Marcelohsj/TrovaValori/blob/main/dashboard.html";
+      window.location.href="https://github.com/Marcelohsj/TrovaValori/dashboard.html";
     }
 };
 var clickCount = 0;
@@ -80,7 +80,7 @@ const outputResult = () => {
 
     const xhr = new XMLHttpRequest();
     
-    xhr.open('get','https://github.com/Marcelohsj/TrovaValori/blob/main/outputResult.html');
+    xhr.open('get','https://github.com/Marcelohsj/TrovaValori/outputResult.html');
 
     xhr.onload = function(){
 
